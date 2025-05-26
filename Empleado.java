@@ -1,4 +1,6 @@
 class Empleado {
+
+    // Cambiamos los atributos a privado 
     private String nombre;
     private String cargo;
     private double salario;
@@ -19,6 +21,7 @@ class Empleado {
             }
 
 
+    // Creamos los getters y los setters de los atributos
     public String getNombre() {
         return nombre;
     }
