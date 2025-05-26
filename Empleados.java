@@ -12,7 +12,7 @@ public class Empleados {
             lista[contador] = new Empleado(nombre, cargo, salario);
             contador++;
         } else {
-            System.out.println("No se pueden agregar más empleados. Capacidad máxima alcanzada.");
+            System.out.println(Textos.LIMITE_EMPLEADOS);
         }
     }
 
